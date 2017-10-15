@@ -1,0 +1,1 @@
+#include<stdio.h>#include<stdlib.h>struct student{	char name[10];	int roll_no;};void main(){	typedef struct student STUDENT;	STUDENT b;	STUDENT *ptr;	ptr=&b;	printf("Name-\n");	scanf("%s",&ptr->name);	printf("Roll no.\n");	scanf("%d",&ptr->roll_no);	printf("Roll no of %s is %d\n",ptr->name,ptr->roll_no);}
